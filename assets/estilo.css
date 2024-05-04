@@ -1,0 +1,27 @@
+/*PARAMETRO GENERALES*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*CONTENEDOR RESPONSIVE*/
+.contenedor {
+  width: 100vw;
+  height: auto;
+  margin: auto;
+  background-color: #F7F2F4;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Imagen*/
+.bg-imagen{
+  background-image: url("https://abisulkes.alwaysdata.net/ttten.svg");
+  background-repeat:repeat-x;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+article{
+    text-align: center; 
+}
