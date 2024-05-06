@@ -8,13 +8,14 @@
 /*CONTENEDOR RESPONSIVE*/
 .contenedor {
   width: 100vw;
-  height: auto;
+  height: 100vh;
   margin: auto;
   background-color: #F7F2F4;
   font-family: "Open Sans", sans-serif;
 }
 
 /*Imagen fondo*/
+
 .bg-imagen {
   background-image: url("https://abisulkes.alwaysdata.net/ttten.svg");
   background-repeat: repeat-x;
@@ -22,10 +23,11 @@
   background-size: cover;
   float: left;
   width: 50%;
+  text-align: center;
 }
 
 /*Contenedor de la seccion perfil*/
-article {
+article>img{
   text-align: center;
 }
 
@@ -54,6 +56,7 @@ li>span {
 
 h1 {
   font-size: 26px;
+  font-weight: 800;
 }
 
 h1 span {
@@ -61,10 +64,11 @@ h1 span {
 }
 
 h3{
-  font-weight: 600;
+  font-weight: 700;
   color:#334F9E;
   margin-bottom: 20px; 
   border-bottom: 1px solid #CECECE;
+  font-size: 16px;
 }
 
 .texto {
@@ -73,3 +77,4 @@ h3{
   color: #363636;
   margin-top: 1rem;
 }
+
