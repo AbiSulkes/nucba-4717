@@ -7,34 +7,42 @@
     <title>Desafio practico</title>
     <!--Hoja de estilo-->
     <link rel="stylesheet" href="./assets/estilo.css">
+    <link rel="stylesheet" href="./assets/estiloFormulario.css">
     <link rel="icon" href="https://abisulkes.alwaysdata.net/imagen2024-2.png">
     <!--Tipografia-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-        </style>
+    </style>
 </head>
 
 <body>
     <!--Mi perfil-->
     <section class="contenedor">
         <article class="bg-imagen">
-            <img src="https://abisulkes.alwaysdata.net/imagen2024-2.png">
-    
-            <ul>
-                <li>Edad: 28 años.</li>
-                <li>Nombre: Ana Abigail Sulkes</li>
-                <li>Apellido: Sulkes</li>
-                <li>Email: sulkesabi@gmail.com</li>
-            </ul>
-    
-            <p> De Buenos Aires, Argentina.Soy diseñadora gráfica, con experiencia en diseño ecommerce, recibida en FADU,
-                UBA. Me gusta ser comprometida y una apasionada en constante crecimiento. Actualmente estudiante en Nucba.
-                En cuanto a mis gustos disfruto de mantenerme activa a través del ejercicio, explorando nuevos
-                lugares mientras paseo al aire libre y descubriendo rincones culinarios en Bs As.</p>
+            <img src="https://abisulkes.alwaysdata.net/imagen2024-2.png" alt="Imagen perfil Abigail Sulkes">
+
+
+            <section class="contenedor2">
+                <ul>
+                    <li>
+                        <h1><span>Hola, soy </span>Abigail Sulkes</h1>
+                        <h3>Diseñadora Gráfica</h3>
+                    </li>
+                    <li class="alineacion"><span>Edad:</span> 28 años.</li>
+                    <li class="alineacion"><span>Email:</span> sulkesabi@gmail.com</li>
+                </ul>
+
+                <p class="texto"> De Buenos Aires, Argentina.Soy diseñadora gráfica, con experiencia en diseño ecommerce, recibida en
+                    FADU,UBA. Me gusta ser comprometida y una apasionada en constante crecimiento. Actualmente estudiante en
+                    Nucba.En cuanto a mis gustos disfruto de mantenerme activa a través del ejercicio, explorando nuevos
+                    lugares mientras paseo al aire libre y descubriendo rincones culinarios en Bs As.</p>
+            </section>
+
         </article>
-    
+
         <!--Formulario-->
-        <form>
+        <article class="fondoFormulario">
+        <form class="contenedor3">
             <fieldset>
                 <legend>Formulario</legend>
                 <label for="edad">Edad:</label>
@@ -50,6 +58,8 @@
             </fieldset>
             <button type="submit">Enviar</button>
         </form>
-    </section>
+        </article>
+
+    </article>
 </body>
 </html>

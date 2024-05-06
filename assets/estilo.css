@@ -14,14 +14,52 @@
   font-family: "Open Sans", sans-serif;
 }
 
-/*Imagen*/
-.bg-imagen{
+/*Imagen fondo*/
+.bg-imagen {
   background-image: url("https://abisulkes.alwaysdata.net/ttten.svg");
-  background-repeat:repeat-x;
-  background-position: right top;
-  background-attachment: fixed;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  width: 50%;
 }
 
-article{
-    text-align: center; 
+/*Contenedor de la seccion perfil*/
+article {
+  text-align: center;
+}
+
+.contenedor2 {
+  margin: auto;
+  width: 700px;
+  padding: 1rem;
+  background: rgba(243, 229, 233, 0.33);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  border: 1px solid rgba(243, 229, 233, 0.3);
+}
+
+/*Titulos y textos de perfil*/
+ul li {
+  list-style-type: none;
+  text-align: start !important;
+}
+
+.alineacion span {
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h1 span {
+  font-weight: 400;
+}
+
+.texto {
+  text-align: start;
 }

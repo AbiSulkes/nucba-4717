@@ -1,0 +1,40 @@
+/*PARAMETRO GENERALES*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /*CONTENEDOR RESPONSIVE*/
+  .contenedor {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    background-color: #F7F2F4;
+    font-family: "Open Sans", sans-serif;
+  }
+
+/*Contenedor formulario*/
+.fondoFormulario {
+    background-color: #334F9E;
+    float: right;
+    width: 50%;
+    height: 100vh;
+  
+  }
+  
+  .contenedor3 {
+    position: absolute;
+    top: 30%;
+    left: 2rem;
+    right: -48rem;
+    margin: 0 auto;
+    width: 700px;
+    padding: 1rem;
+    background: rgba(243, 229, 233, 0.33);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(243, 229, 233, 0.3);
+  }
