@@ -44,22 +44,32 @@ article {
 /*Titulos y textos de perfil*/
 ul li {
   list-style-type: none;
-  text-align: start !important;
+  text-align: start;
 }
 
-.alineacion span {
+li>span {
   color: black;
   font-weight: bold;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 26px;
 }
 
 h1 span {
   font-weight: 400;
 }
 
+h3{
+  font-weight: 600;
+  color:#334F9E;
+  margin-bottom: 20px; 
+  border-bottom: 1px solid #CECECE;
+}
+
 .texto {
   text-align: start;
+  font-size: 14px;
+  color: #363636;
+  margin-top: 1rem;
 }
