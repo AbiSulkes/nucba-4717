@@ -1,80 +1,74 @@
-/*PARAMETRO GENERALES*/
+/*Parametro generales*/
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	border: none;
 }
-
-/*CONTENEDOR RESPONSIVE*/
+/*Contenedor responsive*/
 .contenedor {
-  width: 100vw;
-  height: 100vh;
-  margin: auto;
-  background-color: #F7F2F4;
-  font-family: "Open Sans", sans-serif;
+	width:100vw;
+	min-height:100vh;
+	margin:auto;
+	background-color:#F7F2F4;
+	font-family:"Open Sans",sans-serif;
+	display: flex;
 }
-
 /*Imagen fondo*/
-
 .bg-imagen {
-  background-image: url("https://abisulkes.alwaysdata.net/ttten.svg");
-  background-repeat: repeat-x;
-  background-position: center;
-  background-size: cover;
-  float: left;
-  width: 50%;
-  text-align: center;
+	background-image:url("https://abisulkes.alwaysdata.net/ttten.svg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	display:flex;
+	flex-direction:column;
+	flex-grow:1;
+	justify-content:center;
+	gap: 1rem;
 }
-
 /*Contenedor de la seccion perfil*/
-article>img{
-  text-align: center;
+article>img {
+	align-self:center;
+	max-width: 350px;
 }
-
 .contenedor2 {
-  margin: auto;
-  width: 700px;
-  padding: 1rem;
-  background: rgba(243, 229, 233, 0.33);
-  border-radius: 10px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5.2px);
-  -webkit-backdrop-filter: blur(5.2px);
-  border: 1px solid rgba(243, 229, 233, 0.3);
+	/*margin:auto;*/
+	width:700px;
+	padding:1rem;
+	align-self:center;
+	background:rgba(243,229,233,0.33);
+	border-radius:10px;
+	box-shadow:0 4px 30px rgba(0,0,0,0.1);
+	backdrop-filter:blur(5.2px);
+	-webkit-backdrop-filter:blur(5.2px);
+	border:1px solid rgba(243,229,233,0.3);
 }
-
 /*Titulos y textos de perfil*/
 ul li {
-  list-style-type: none;
-  text-align: start;
+	list-style-type:none;
+	text-align:start;
 }
-
 li>span {
-  color: black;
-  font-weight: bold;
+	color:black;
+	font-weight:bold;
 }
-
 h1 {
-  font-size: 26px;
-  font-weight: 800;
+	font-size:26px;
+	font-weight:800;
 }
-
 h1 span {
-  font-weight: 400;
+	font-weight:400;
 }
-
-h3{
-  font-weight: 700;
-  color:#334F9E;
-  margin-bottom: 20px; 
-  border-bottom: 1px solid #CECECE;
-  font-size: 16px;
+h3 {
+	font-weight:700;
+	color:#334F9E;
+	margin-bottom:20px;
+	border-bottom:1px solid #CECECE;
+	font-size:16px;
 }
-
 .texto {
-  text-align: start;
-  font-size: 14px;
-  color: #363636;
-  margin-top: 1rem;
+	text-align:start;
+	font-size:14px;
+	color:#363636;
+	margin-top: 1rem;
 }
-

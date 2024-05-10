@@ -1,81 +1,65 @@
-
-/*CONTENEDOR RESPONSIVE*/
-.contenedor {
-  width: 100vw;
-  font-family: "Open Sans", sans-serif;
-}
-
 /*Contenedor formulario*/
 .fondoFormulario {
-  background-color: #334F9E;
-  float: right;
-  width: 50%;
-  height: 100vh;
+	background-color:#334F9E;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	flex-grow:1;
+	align-items:center;
 }
-
 .contenedor3 {
-  position: absolute;
-  top: 10%;
-  left: 2rem;
-  right: -48rem;
-  margin: 0 auto;
-  width: 550px;
-  padding: 2rem;
-  background: rgba(243, 229, 233, 0.33);
-  border-radius: 10px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5.2px);
-  -webkit-backdrop-filter: blur(5.2px);
-  border: 1px solid rgba(243, 229, 233, 0.3);
+	width:550px;
+	padding:2rem;
+	background:rgba(243,229,233,0.33);
+	border-radius:10px;
+	box-shadow:0 4px 30px rgba(0,0,0,0.1);
+	backdrop-filter:blur(5.2px);
+	-webkit-backdrop-filter:blur(5.2px);
+	border:1px solid rgba(243,229,233,0.3);
 }
-
-
 legend {
-  font-size: 20px;
-  color: #F3E5E9;
-  text-align: center;
-  margin-bottom: 20px;
+	font-size:20px;
+	color:#F3E5E9;
+	text-align:center;
+	margin-bottom:20px;
 }
-
-label{
-  font-size: 14px;
-  color: #F3E5E9;
+label {
+	font-size:14px;
+	color:#F3E5E9;
 }
-
-input{
-  padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  margin-bottom: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  color: #363636;
-  font-size: 13px;
+input {
+	padding:15px;
+	border:1px solid #ccc;
+	border-radius:3px;
+	margin-bottom:10px;
+	width:100%;
+	box-sizing:border-box;
+	color:#363636;
+	font-size:13px;
 }
-
-textarea{
-  padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  margin-bottom: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  color: #363636;
-  font-size: 14px;
+textarea {
+	padding:15px;
+	border:1px solid #ccc;
+	border-radius:3px;
+	margin-bottom:10px;
+	width:100%;
+	box-sizing:border-box;
+	color:#363636;
+	font-size:13px;
+	font-family:"Open Sans",sans-serif;
 }
-
 .botonEnvio {
-  display: block;
-  margin: 0 auto;
-  font-size: 1rem;
-  height: 48px;
-  border-radius: 0.4rem;
-  font-weight: 600;
-  padding: 0 1.2rem;
-  color: #F3E5E9;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 0.5rem 1rem rgba(143, 142, 142, 0.15) !important;
-  background: #000000;
-  margin-top: 20px;
+	display:block;
+	margin:0 auto;
+	font-size:1rem;
+	height:48px;
+	border-radius:0.4rem;
+	font-weight:600;
+	padding:0 1.2rem;
+	color:#F3E5E9;
+	border:none;
+	cursor:pointer;
+	box-shadow:0 0.5rem 1rem rgba(143,142,142,0.15) !important;
+	background:#000000;
+	margin-top: 20px;
 }
